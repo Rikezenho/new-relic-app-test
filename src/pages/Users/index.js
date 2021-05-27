@@ -9,5 +9,5 @@ export const Users = (props) => {
             console.log('New Relic interaction not found')
         }
     }, [])
-    return <h1>Users</h1>
+    return <h1 id="users-page-title">Users Page</h1>
 }
