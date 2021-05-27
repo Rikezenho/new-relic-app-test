@@ -19,13 +19,13 @@ function App() {
           <nav className="App-menu">
           <ul>
             <li>
-              <Link to="/">Home</Link>
+              <Link to="/" id="home-link">Home</Link>
             </li>
             <li>
-              <Link to="/about">About</Link>
+              <Link to="/about" id="about-link">About</Link>
             </li>
             <li>
-              <Link to="/users">Users</Link>
+              <Link to="/users" id="user-link">Users</Link>
             </li>
           </ul>
           </nav>
